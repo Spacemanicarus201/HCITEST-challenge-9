@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Xian Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Styles.css">
     <style>
         body {
@@ -14,8 +15,24 @@
         .navbar {
             display: none;
         }
+
+        fieldset {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -27,7 +44,8 @@
     <div class="container mt-4">
         <h1 class="text-center">Xian Onnodhia Nanhai Habibie</h1>
         <div class="text-center">
-            <img src="WhatsApp Image 2023-09-21 at 17.07.27.jpeg" alt="My Picture" class="img-fluid rounded-circle" width="200" height="200" title="Hello There">
+            <img src="WhatsApp Image 2023-09-21 at 17.07.27.jpeg" alt="My Picture" class="img-fluid rounded-circle"
+                width="200" height="200" title="Hello There">
         </div>
         <h3 class="text-center">2702367422 - L1BC</h3>
     </div>
@@ -52,7 +70,9 @@
             <legend class="text-center">About Me</legend>
             <div class="row">
                 <div class="col-md-4">
-                    <p>My name is Xian, I am 17 years old, and I have a passion for sports, especially equestrian and football. At Binus International, I am part of the CS program in class L1BC, where I have made great friends.</p>
+                    <p>My name is Xian, I am 17 years old, and I have a passion for sports, especially equestrian and
+                        football. At Binus International, I am part of the CS program in class L1BC, where I have made
+                        great friends.</p>
                 </div>
                 <div class="col-md-4">
                     <h2>Why I'd Be a Good Zookeeper</h2>
@@ -75,7 +95,7 @@
                 </div>
             </div>
         </fieldset>
-        <fieldset id="news">
+        <fieldset id="news" style="animation-delay: 2s;">
             <legend class="text-center">Social Accounts</legend>
             <div class="row">
                 <div class="col-md-4" id="about-me">
@@ -92,7 +112,7 @@
                 </div>
             </div>
         </fieldset>
-        <fieldset id="contact">
+        <fieldset id="contact" style="animation-delay: 4s;">
             <legend class="text-center">Education & Skills</legend>
             <div class="row">
                 <div class="col-md-6" id="about-me">
@@ -129,7 +149,7 @@
                 </div>
             </div>
         </fieldset>
-        <fieldset id="about">
+        <fieldset id="about" style="animation-delay: 6s;">
             <legend class="text-center">My Favorite Animal</legend>
             <div class="row">
                 <div class="col-md-4" id="favorite-animal">
@@ -168,4 +188,5 @@
         }
     </script>
 </body>
+
 </html>
